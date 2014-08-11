@@ -21,6 +21,16 @@
 		B4793AEB199243D0004C1584 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4793ACD199243D0004C1584 /* UIKit.framework */; };
 		B4793AF3199243D0004C1584 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4793AF1199243D0004C1584 /* InfoPlist.strings */; };
 		B4793AF5199243D0004C1584 /* AviationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4793AF4199243D0004C1584 /* AviationTests.m */; };
+		B4793B0019924667004C1584 /* NHAHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4793AFF19924667004C1584 /* NHAHomePageViewController.m */; };
+		B4793B0819924884004C1584 /* facebookicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4793B0319924884004C1584 /* facebookicon.png */; };
+		B4793B0919924884004C1584 /* mailicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4793B0419924884004C1584 /* mailicon.png */; };
+		B4793B0A19924884004C1584 /* mapsicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4793B0519924884004C1584 /* mapsicon.png */; };
+		B4793B0B19924884004C1584 /* phoneicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4793B0619924884004C1584 /* phoneicon.png */; };
+		B4793B0C19924884004C1584 /* youtubeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4793B0719924884004C1584 /* youtubeicon.png */; };
+		B48D2DF919995F2A0008EFE1 /* NHAHoursAndRatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D2DF819995F2A0008EFE1 /* NHAHoursAndRatesViewController.m */; };
+		B48D2DFC19995F410008EFE1 /* NHAMembershipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D2DFB19995F410008EFE1 /* NHAMembershipViewController.m */; };
+		B48D2DFF19995F4D0008EFE1 /* NHAAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D2DFE19995F4D0008EFE1 /* NHAAboutUsViewController.m */; };
+		B48D2E0219995F690008EFE1 /* NHAExhibitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D2E0119995F690008EFE1 /* NHAExhibitsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,21 @@
 		B4793AF0199243D0004C1584 /* AviationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AviationTests-Info.plist"; sourceTree = "<group>"; };
 		B4793AF2199243D0004C1584 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B4793AF4199243D0004C1584 /* AviationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AviationTests.m; sourceTree = "<group>"; };
+		B4793AFE19924667004C1584 /* NHAHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAHomePageViewController.h; sourceTree = "<group>"; };
+		B4793AFF19924667004C1584 /* NHAHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAHomePageViewController.m; sourceTree = "<group>"; };
+		B4793B0319924884004C1584 /* facebookicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebookicon.png; path = "../../nha resources/aviationPics/facebookicon.png"; sourceTree = "<group>"; };
+		B4793B0419924884004C1584 /* mailicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mailicon.png; path = "../../nha resources/aviationPics/mailicon.png"; sourceTree = "<group>"; };
+		B4793B0519924884004C1584 /* mapsicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mapsicon.png; path = "../../nha resources/aviationPics/mapsicon.png"; sourceTree = "<group>"; };
+		B4793B0619924884004C1584 /* phoneicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = phoneicon.png; path = "../../nha resources/aviationPics/phoneicon.png"; sourceTree = "<group>"; };
+		B4793B0719924884004C1584 /* youtubeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = youtubeicon.png; path = "../../nha resources/aviationPics/youtubeicon.png"; sourceTree = "<group>"; };
+		B48D2DF719995F2A0008EFE1 /* NHAHoursAndRatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAHoursAndRatesViewController.h; sourceTree = "<group>"; };
+		B48D2DF819995F2A0008EFE1 /* NHAHoursAndRatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAHoursAndRatesViewController.m; sourceTree = "<group>"; };
+		B48D2DFA19995F410008EFE1 /* NHAMembershipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAMembershipViewController.h; sourceTree = "<group>"; };
+		B48D2DFB19995F410008EFE1 /* NHAMembershipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAMembershipViewController.m; sourceTree = "<group>"; };
+		B48D2DFD19995F4D0008EFE1 /* NHAAboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAAboutUsViewController.h; sourceTree = "<group>"; };
+		B48D2DFE19995F4D0008EFE1 /* NHAAboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAAboutUsViewController.m; sourceTree = "<group>"; };
+		B48D2E0019995F690008EFE1 /* NHAExhibitsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAExhibitsViewController.h; sourceTree = "<group>"; };
+		B48D2E0119995F690008EFE1 /* NHAExhibitsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAExhibitsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +107,7 @@
 		B4793ABD199243D0004C1584 = {
 			isa = PBXGroup;
 			children = (
+				B4793B011992480F004C1584 /* Resources */,
 				B4793ACF199243D0004C1584 /* Aviation */,
 				B4793AEE199243D0004C1584 /* AviationTests */,
 				B4793AC8199243D0004C1584 /* Frameworks */,
@@ -119,6 +145,16 @@
 				B4793ADF199243D0004C1584 /* NHAViewController.m */,
 				B4793AE1199243D0004C1584 /* Images.xcassets */,
 				B4793AD0199243D0004C1584 /* Supporting Files */,
+				B4793AFE19924667004C1584 /* NHAHomePageViewController.h */,
+				B4793AFF19924667004C1584 /* NHAHomePageViewController.m */,
+				B48D2DF719995F2A0008EFE1 /* NHAHoursAndRatesViewController.h */,
+				B48D2DF819995F2A0008EFE1 /* NHAHoursAndRatesViewController.m */,
+				B48D2DFA19995F410008EFE1 /* NHAMembershipViewController.h */,
+				B48D2DFB19995F410008EFE1 /* NHAMembershipViewController.m */,
+				B48D2DFD19995F4D0008EFE1 /* NHAAboutUsViewController.h */,
+				B48D2DFE19995F4D0008EFE1 /* NHAAboutUsViewController.m */,
+				B48D2E0019995F690008EFE1 /* NHAExhibitsViewController.h */,
+				B48D2E0119995F690008EFE1 /* NHAExhibitsViewController.m */,
 			);
 			path = Aviation;
 			sourceTree = "<group>";
@@ -150,6 +186,26 @@
 				B4793AF1199243D0004C1584 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4793B011992480F004C1584 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4793B021992481D004C1584 /* img */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B4793B021992481D004C1584 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				B4793B0319924884004C1584 /* facebookicon.png */,
+				B4793B0419924884004C1584 /* mailicon.png */,
+				B4793B0519924884004C1584 /* mapsicon.png */,
+				B4793B0619924884004C1584 /* phoneicon.png */,
+				B4793B0719924884004C1584 /* youtubeicon.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +285,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4793B0C19924884004C1584 /* youtubeicon.png in Resources */,
 				B4793AE2199243D0004C1584 /* Images.xcassets in Resources */,
 				B4793AD4199243D0004C1584 /* InfoPlist.strings in Resources */,
+				B4793B0819924884004C1584 /* facebookicon.png in Resources */,
+				B4793B0919924884004C1584 /* mailicon.png in Resources */,
 				B4793ADD199243D0004C1584 /* Main.storyboard in Resources */,
+				B4793B0A19924884004C1584 /* mapsicon.png in Resources */,
+				B4793B0B19924884004C1584 /* phoneicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +313,11 @@
 			files = (
 				B4793AE0199243D0004C1584 /* NHAViewController.m in Sources */,
 				B4793ADA199243D0004C1584 /* NHAAppDelegate.m in Sources */,
+				B48D2DFF19995F4D0008EFE1 /* NHAAboutUsViewController.m in Sources */,
+				B48D2DFC19995F410008EFE1 /* NHAMembershipViewController.m in Sources */,
+				B48D2E0219995F690008EFE1 /* NHAExhibitsViewController.m in Sources */,
+				B48D2DF919995F2A0008EFE1 /* NHAHoursAndRatesViewController.m in Sources */,
+				B4793B0019924667004C1584 /* NHAHomePageViewController.m in Sources */,
 				B4793AD6199243D0004C1584 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +523,7 @@
 				B4793AFA199243D0004C1584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4793AFB199243D0004C1584 /* Build configuration list for PBXNativeTarget "AviationTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +532,7 @@
 				B4793AFD199243D0004C1584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
