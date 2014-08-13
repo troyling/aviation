@@ -46,4 +46,8 @@
 }
 */
 
+- (IBAction)applyVolunteerAndMembership:(id)sender {
+    NSURL *url = [[NSURL alloc] initWithString:@"http://nhahs.org/pdffiles/membership-application-2014.pdf"];
+    [[UIApplication sharedApplication] openURL:url];
+}
 @end

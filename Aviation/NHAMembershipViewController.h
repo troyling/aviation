@@ -10,4 +10,6 @@
 
 @interface NHAMembershipViewController : UIViewController
 
+- (IBAction)applyVolunteerAndMembership:(id)sender;
+
 @end
