@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface NHAMembershipViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *applyBtn;
 
 - (IBAction)applyVolunteerAndMembership:(id)sender;
 

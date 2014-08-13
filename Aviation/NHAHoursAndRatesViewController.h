@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface NHAHoursAndRatesViewController : UIViewController<UIActionSheetDelegate>
+@property (weak, nonatomic) IBOutlet UIButton *contactUsBtn;
 
 - (IBAction)getContactUsActionSheet:(id)sender;
 

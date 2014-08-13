@@ -29,6 +29,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [NHAUIGenerator setBackgroundColorFor:self.view];
+    
+    [NHAUIGenerator setButtonLayoutFor:@[self.applyBtn]];
 }
 
 - (void)didReceiveMemoryWarning

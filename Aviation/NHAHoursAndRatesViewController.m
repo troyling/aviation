@@ -31,6 +31,7 @@ const int POPUP_TAG = 1;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [NHAUIGenerator setBackgroundColorFor:self.view];
+    [NHAUIGenerator setButtonLayoutFor:@[self.contactUsBtn]];
 }
 
 - (void)didReceiveMemoryWarning
