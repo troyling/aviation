@@ -27,6 +27,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [scroller setScrollEnabled:YES];
+    [scroller setContentSize:view.frame.size];
+
 }
 
 - (void)didReceiveMemoryWarning

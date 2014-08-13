@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NHAAboutUsViewController : UIViewController
+@interface NHAAboutUsViewController : UIViewController{
+    
+    IBOutlet UIScrollView *scroller;
+    IBOutlet UIView *view;
+    
+}
+
 
 @end
