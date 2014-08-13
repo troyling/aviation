@@ -23,12 +23,16 @@
     return self;
 }
 
+- (void)viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+    [self.scrollView setContentSize:CGSizeMake(320, 808)];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [scroller setScrollEnabled:YES];
-    [scroller setContentSize:view.frame.size];
 
 }
 
