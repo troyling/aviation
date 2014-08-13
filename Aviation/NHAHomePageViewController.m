@@ -7,6 +7,7 @@
 //
 
 #import "NHAHomePageViewController.h"
+#import "NHAUIGenerator.h"
 
 @interface NHAHomePageViewController ()
 
@@ -27,6 +28,24 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    // Set up the layout for all buttons
+    [NHAUIGenerator setButtonLayoutFor:@[self.hourAndRateBtn,
+                                   self.newsAndEventBtn,
+                                   self.membershipBtn,
+                                   self.galleryBtn,
+                                   self.exhibitsBtn,
+                                   self.aboutUsBtn]];
+    
+    // Set background color
+    [NHAUIGenerator setBackgroundColorFor:self.view];
+    
+        
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:YES];
 }
 
 - (void)didReceiveMemoryWarning

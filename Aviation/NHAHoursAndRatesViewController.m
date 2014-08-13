@@ -7,6 +7,7 @@
 //
 
 #import "NHAHoursAndRatesViewController.h"
+#import "NHAUIGenerator.h"
 
 @interface NHAHoursAndRatesViewController ()
 
@@ -29,6 +30,7 @@ const int POPUP_TAG = 1;
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [NHAUIGenerator setBackgroundColorFor:self.view];
 }
 
 - (void)didReceiveMemoryWarning

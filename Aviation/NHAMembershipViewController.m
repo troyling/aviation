@@ -7,6 +7,7 @@
 //
 
 #import "NHAMembershipViewController.h"
+#import "NHAUIGenerator.h"
 
 @interface NHAMembershipViewController ()
 
@@ -27,6 +28,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [NHAUIGenerator setBackgroundColorFor:self.view];
 }
 
 - (void)didReceiveMemoryWarning

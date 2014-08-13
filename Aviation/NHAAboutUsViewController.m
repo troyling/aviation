@@ -7,6 +7,7 @@
 //
 
 #import "NHAAboutUsViewController.h"
+#import "NHAUIGenerator.h"
 
 @interface NHAAboutUsViewController ()
 
@@ -33,6 +34,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [NHAUIGenerator setBackgroundColorFor:self.scrollView];
+    [NHAUIGenerator setBackgroundColorFor:self.containerView];
 
 }
 

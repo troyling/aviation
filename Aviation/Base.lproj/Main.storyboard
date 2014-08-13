@@ -16,6 +16,7 @@
                                 <rect key="frame" x="77" y="89" width="166" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Hours &amp; Rates">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -141,6 +142,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Aviation Museum" id="dNR-Gs-f0X"/>
+                    <connections>
+                        <outlet property="aboutUsBtn" destination="x5L-rr-QgL" id="Kw4-xL-J3R"/>
+                        <outlet property="exhibitsBtn" destination="84F-ri-kO8" id="V2F-YW-Chk"/>
+                        <outlet property="galleryBtn" destination="V8A-Zg-9CS" id="E7T-hp-ymS"/>
+                        <outlet property="hourAndRateBtn" destination="Zma-6h-866" id="woR-9u-E9K"/>
+                        <outlet property="membershipBtn" destination="KH6-tv-puf" id="cJQ-0R-6qP"/>
+                        <outlet property="newsAndEventBtn" destination="V5N-Bt-XGA" id="GDF-S7-GdG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
