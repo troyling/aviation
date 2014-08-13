@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NHAHoursAndRatesViewController : UIViewController
+@interface NHAHoursAndRatesViewController : UIViewController<UIActionSheetDelegate>
+
+- (IBAction)getContactUsActionSheet:(id)sender;
 
 @end

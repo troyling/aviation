@@ -14,6 +14,8 @@
 
 @implementation NHAHoursAndRatesViewController
 
+const int POPUP_TAG = 1;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -46,4 +48,50 @@
 }
 */
 
+/**
+ * Pop up view for contacting aviation museum
+ */
+- (IBAction)getContactUsActionSheet:(id)sender {
+    UIActionSheet *popup = [[UIActionSheet alloc] initWithTitle:nil
+                                                       delegate:self
+                                              cancelButtonTitle:@"Cancel"
+                                         destructiveButtonTitle:nil
+                                              otherButtonTitles:@"Plan for Group Tour",
+                                                                @"Rent Your Event",
+                            nil];
+    popup.tag = POPUP_TAG;
+    [popup showInView:self.view];
+}
+
+
+/**
+ * Delegate function to handle events on the popup actionsheet
+ */
+- (void)actionSheet:(UIActionSheet *)popup clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (popup.tag == POPUP_TAG) {
+        if (buttonIndex == 0) {
+            // Call museum for planning group tour
+            [self callForGroupTour];
+        } else if (buttonIndex == 1) {
+            // visit museum website for renting event
+            [self rentYourEvent];
+        }
+    }
+}
+
+/**
+ * Call museum
+ */
+- (void)callForGroupTour {
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"tel:+16036694877"]];
+    [[UIApplication sharedApplication] openURL:url];
+}
+
+/**
+ * Visit website
+ */
+- (void)rentYourEvent {
+    NSURL *url = [NSURL URLWithString:@"http://nhahs.org/images/stories/Event_Center_Brochure_LORES.pdf"];
+    [[UIApplication sharedApplication] openURL:url];
+}
 @end
