@@ -11,7 +11,6 @@
 @interface NHAUIGenerator : NSObject
 
 + (void)setButtonLayoutFor:(NSArray *)buttons;
-+ (void)setLabelLayoutFor:(NSArray *)labels;
 + (void)setBackgroundColorFor:(UIView *)view;
 
 @end

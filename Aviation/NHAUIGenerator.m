@@ -20,21 +20,12 @@
     for (UIButton *btn in buttons) {
         // Round button
         btn.layer.cornerRadius = 5;
-        btn.layer.borderWidth = 1;
         btn.layer.borderColor = [UIColor blackColor].CGColor;
         
         // Background color
         UIColor *btnColor = [UIColor colorWithRed:0.60f green:0.0f blue:0.18f alpha:1.0f];
         [btn setBackgroundColor:btnColor];
     }
-}
-
-/**
- * Set the given labels with the custom NHA layout style
- */
-+ (void)setLabelLayoutFor:(NSArray *)labels
-{
-    
 }
 
 /**

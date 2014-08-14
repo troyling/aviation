@@ -40,6 +40,10 @@
     // Set background color
     [NHAUIGenerator setBackgroundColorFor:self.view];
     
+    // Nav bar color and text color
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.20f green:0.40f blue:0.55f alpha:1.0f];
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
+    
         
 }
 
