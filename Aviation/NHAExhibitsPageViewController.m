@@ -1,19 +1,18 @@
 //
-//  NHAExhibitsViewController.m
+//  NHAExhibitsPageViewController.m
 //  Aviation
 //
-//  Created by Troy Ling on 8/11/14.
+//  Created by Troy Ling on 8/14/14.
 //  Copyright (c) 2014 New Hampshire Aviation. All rights reserved.
 //
 
-#import "NHAExhibitsViewController.h"
-#import "NHAUIGenerator.h"
+#import "NHAExhibitsPageViewController.h"
 
-@interface NHAExhibitsViewController ()
+@interface NHAExhibitsPageViewController ()
 
 @end
 
-@implementation NHAExhibitsViewController
+@implementation NHAExhibitsPageViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,13 +27,6 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [NHAUIGenerator setBackgroundColorFor:self.view];
-    
-    // load other UI elements
-    self.imageView.image = [UIImage imageNamed:self.imageFile];
-    self.heading.text = self.titleText;
-    self.description.text = self.descriptionText;
-    
 }
 
 - (void)didReceiveMemoryWarning
