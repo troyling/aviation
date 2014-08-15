@@ -625,7 +625,7 @@
         <image name="mapsicon.png" width="512" height="512"/>
         <image name="newlogo_large.png" width="960" height="720"/>
         <image name="phoneicon.png" width="512" height="512"/>
-        <image name="terminal.jpg" width="541" height="389"/>
+        <image name="terminal.jpg" width="2048" height="1365"/>
         <image name="youtubeicon.png" width="512" height="512"/>
     </resources>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

@@ -12,6 +12,12 @@
 		B40D8BB2199D4B8F00C84FB5 /* home_built_aircraft.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B40D8BAE199D4B8F00C84FB5 /* home_built_aircraft.jpg */; };
 		B40D8BB3199D4B8F00C84FB5 /* terminal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B40D8BAF199D4B8F00C84FB5 /* terminal.jpg */; };
 		B40D8BB4199D4B8F00C84FB5 /* voluteering.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B40D8BB0199D4B8F00C84FB5 /* voluteering.jpg */; };
+		B40D8BBB199E7D2500C84FB5 /* facebookicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B40D8BB5199E7D2500C84FB5 /* facebookicon.png */; };
+		B40D8BBC199E7D2500C84FB5 /* mailicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B40D8BB6199E7D2500C84FB5 /* mailicon.png */; };
+		B40D8BBD199E7D2500C84FB5 /* mapsicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B40D8BB7199E7D2500C84FB5 /* mapsicon.png */; };
+		B40D8BBE199E7D2500C84FB5 /* newlogo_large.png in Resources */ = {isa = PBXBuildFile; fileRef = B40D8BB8199E7D2500C84FB5 /* newlogo_large.png */; };
+		B40D8BBF199E7D2500C84FB5 /* phoneicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B40D8BB9199E7D2500C84FB5 /* phoneicon.png */; };
+		B40D8BC0199E7D2500C84FB5 /* youtubeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B40D8BBA199E7D2500C84FB5 /* youtubeicon.png */; };
 		B4793ACA199243D0004C1584 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4793AC9199243D0004C1584 /* Foundation.framework */; };
 		B4793ACC199243D0004C1584 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4793ACB199243D0004C1584 /* CoreGraphics.framework */; };
 		B4793ACE199243D0004C1584 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4793ACD199243D0004C1584 /* UIKit.framework */; };
@@ -26,18 +32,11 @@
 		B4793AF3199243D0004C1584 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4793AF1199243D0004C1584 /* InfoPlist.strings */; };
 		B4793AF5199243D0004C1584 /* AviationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4793AF4199243D0004C1584 /* AviationTests.m */; };
 		B4793B0019924667004C1584 /* NHAHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4793AFF19924667004C1584 /* NHAHomePageViewController.m */; };
-		B4793B0819924884004C1584 /* facebookicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4793B0319924884004C1584 /* facebookicon.png */; };
-		B4793B0919924884004C1584 /* mailicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4793B0419924884004C1584 /* mailicon.png */; };
-		B4793B0A19924884004C1584 /* mapsicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4793B0519924884004C1584 /* mapsicon.png */; };
-		B4793B0B19924884004C1584 /* phoneicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4793B0619924884004C1584 /* phoneicon.png */; };
-		B4793B0C19924884004C1584 /* youtubeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4793B0719924884004C1584 /* youtubeicon.png */; };
 		B48D2DF919995F2A0008EFE1 /* NHAHoursAndRatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D2DF819995F2A0008EFE1 /* NHAHoursAndRatesViewController.m */; };
 		B48D2DFC19995F410008EFE1 /* NHAMembershipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D2DFB19995F410008EFE1 /* NHAMembershipViewController.m */; };
 		B48D2DFF19995F4D0008EFE1 /* NHAAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D2DFE19995F4D0008EFE1 /* NHAAboutUsViewController.m */; };
 		B48D2E0219995F690008EFE1 /* NHAExhibitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D2E0119995F690008EFE1 /* NHAExhibitsViewController.m */; };
 		B49B9425199D2D5C00382ECC /* NHAExhibitsPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B49B9424199D2D5C00382ECC /* NHAExhibitsPageViewController.m */; };
-		B4C361721999904900F0A183 /* newlogo_large.png in Resources */ = {isa = PBXBuildFile; fileRef = B4C361701999904900F0A183 /* newlogo_large.png */; };
-		B4C361731999904900F0A183 /* terminal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4C361711999904900F0A183 /* terminal.jpg */; };
 		B4C36176199BF99000F0A183 /* NHAUIGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C36175199BF99000F0A183 /* NHAUIGenerator.m */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +57,12 @@
 		B40D8BAE199D4B8F00C84FB5 /* home_built_aircraft.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_built_aircraft.jpg; sourceTree = "<group>"; };
 		B40D8BAF199D4B8F00C84FB5 /* terminal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = terminal.jpg; sourceTree = "<group>"; };
 		B40D8BB0199D4B8F00C84FB5 /* voluteering.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = voluteering.jpg; sourceTree = "<group>"; };
+		B40D8BB5199E7D2500C84FB5 /* facebookicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookicon.png; sourceTree = "<group>"; };
+		B40D8BB6199E7D2500C84FB5 /* mailicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mailicon.png; sourceTree = "<group>"; };
+		B40D8BB7199E7D2500C84FB5 /* mapsicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapsicon.png; sourceTree = "<group>"; };
+		B40D8BB8199E7D2500C84FB5 /* newlogo_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newlogo_large.png; sourceTree = "<group>"; };
+		B40D8BB9199E7D2500C84FB5 /* phoneicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phoneicon.png; sourceTree = "<group>"; };
+		B40D8BBA199E7D2500C84FB5 /* youtubeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youtubeicon.png; sourceTree = "<group>"; };
 		B4793AC6199243D0004C1584 /* Aviation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aviation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4793AC9199243D0004C1584 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B4793ACB199243D0004C1584 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,11 +82,6 @@
 		B4793AF4199243D0004C1584 /* AviationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AviationTests.m; sourceTree = "<group>"; };
 		B4793AFE19924667004C1584 /* NHAHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAHomePageViewController.h; sourceTree = "<group>"; };
 		B4793AFF19924667004C1584 /* NHAHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAHomePageViewController.m; sourceTree = "<group>"; };
-		B4793B0319924884004C1584 /* facebookicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebookicon.png; path = "../../nha resources/aviationPics/facebookicon.png"; sourceTree = "<group>"; };
-		B4793B0419924884004C1584 /* mailicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mailicon.png; path = "../../nha resources/aviationPics/mailicon.png"; sourceTree = "<group>"; };
-		B4793B0519924884004C1584 /* mapsicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mapsicon.png; path = "../../nha resources/aviationPics/mapsicon.png"; sourceTree = "<group>"; };
-		B4793B0619924884004C1584 /* phoneicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = phoneicon.png; path = "../../nha resources/aviationPics/phoneicon.png"; sourceTree = "<group>"; };
-		B4793B0719924884004C1584 /* youtubeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = youtubeicon.png; path = "../../nha resources/aviationPics/youtubeicon.png"; sourceTree = "<group>"; };
 		B48D2DF719995F2A0008EFE1 /* NHAHoursAndRatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAHoursAndRatesViewController.h; sourceTree = "<group>"; };
 		B48D2DF819995F2A0008EFE1 /* NHAHoursAndRatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAHoursAndRatesViewController.m; sourceTree = "<group>"; };
 		B48D2DFA19995F410008EFE1 /* NHAMembershipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAMembershipViewController.h; sourceTree = "<group>"; };
@@ -92,8 +92,6 @@
 		B48D2E0119995F690008EFE1 /* NHAExhibitsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAExhibitsViewController.m; sourceTree = "<group>"; };
 		B49B9423199D2D5C00382ECC /* NHAExhibitsPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAExhibitsPageViewController.h; sourceTree = "<group>"; };
 		B49B9424199D2D5C00382ECC /* NHAExhibitsPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAExhibitsPageViewController.m; sourceTree = "<group>"; };
-		B4C361701999904900F0A183 /* newlogo_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newlogo_large.png; path = "../../nha resources/aviationPics/newlogo_large.png"; sourceTree = "<group>"; };
-		B4C361711999904900F0A183 /* terminal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = terminal.jpg; path = "../../nha resources/aviationPics/terminal.jpg"; sourceTree = "<group>"; };
 		B4C36174199BF99000F0A183 /* NHAUIGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAUIGenerator.h; sourceTree = "<group>"; };
 		B4C36175199BF99000F0A183 /* NHAUIGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAUIGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,17 +210,16 @@
 		B4793B021992481D004C1584 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				B40D8BB5199E7D2500C84FB5 /* facebookicon.png */,
+				B40D8BB6199E7D2500C84FB5 /* mailicon.png */,
+				B40D8BB7199E7D2500C84FB5 /* mapsicon.png */,
+				B40D8BB8199E7D2500C84FB5 /* newlogo_large.png */,
+				B40D8BB9199E7D2500C84FB5 /* phoneicon.png */,
+				B40D8BBA199E7D2500C84FB5 /* youtubeicon.png */,
 				B40D8BAD199D4B8F00C84FB5 /* doodle_bug.jpg */,
 				B40D8BAE199D4B8F00C84FB5 /* home_built_aircraft.jpg */,
 				B40D8BAF199D4B8F00C84FB5 /* terminal.jpg */,
 				B40D8BB0199D4B8F00C84FB5 /* voluteering.jpg */,
-				B4C361701999904900F0A183 /* newlogo_large.png */,
-				B4C361711999904900F0A183 /* terminal.jpg */,
-				B4793B0319924884004C1584 /* facebookicon.png */,
-				B4793B0419924884004C1584 /* mailicon.png */,
-				B4793B0519924884004C1584 /* mapsicon.png */,
-				B4793B0619924884004C1584 /* phoneicon.png */,
-				B4793B0719924884004C1584 /* youtubeicon.png */,
 			);
 			name = img;
 			sourceTree = "<group>";
@@ -353,19 +350,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4793B0C19924884004C1584 /* youtubeicon.png in Resources */,
 				B4793AE2199243D0004C1584 /* Images.xcassets in Resources */,
 				B4793AD4199243D0004C1584 /* InfoPlist.strings in Resources */,
-				B4793B0819924884004C1584 /* facebookicon.png in Resources */,
-				B4793B0919924884004C1584 /* mailicon.png in Resources */,
+				B40D8BBD199E7D2500C84FB5 /* mapsicon.png in Resources */,
+				B40D8BBE199E7D2500C84FB5 /* newlogo_large.png in Resources */,
+				B40D8BBB199E7D2500C84FB5 /* facebookicon.png in Resources */,
 				B40D8BB2199D4B8F00C84FB5 /* home_built_aircraft.jpg in Resources */,
-				B4C361721999904900F0A183 /* newlogo_large.png in Resources */,
 				B4793ADD199243D0004C1584 /* Main.storyboard in Resources */,
-				B4C361731999904900F0A183 /* terminal.jpg in Resources */,
 				B40D8BB1199D4B8F00C84FB5 /* doodle_bug.jpg in Resources */,
-				B4793B0A19924884004C1584 /* mapsicon.png in Resources */,
-				B4793B0B19924884004C1584 /* phoneicon.png in Resources */,
+				B40D8BBC199E7D2500C84FB5 /* mailicon.png in Resources */,
+				B40D8BC0199E7D2500C84FB5 /* youtubeicon.png in Resources */,
 				B40D8BB4199D4B8F00C84FB5 /* voluteering.jpg in Resources */,
+				B40D8BBF199E7D2500C84FB5 /* phoneicon.png in Resources */,
 				B40D8BB3199D4B8F00C84FB5 /* terminal.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
