@@ -29,6 +29,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    // set light color for the status bar
+    self.navigationController.navigationBar.barStyle = UIStatusBarStyleLightContent;
+    
     // Set up the layout for all buttons
     [NHAUIGenerator setButtonLayoutFor:@[self.hourAndRateBtn,
                                    self.newsAndEventBtn,
