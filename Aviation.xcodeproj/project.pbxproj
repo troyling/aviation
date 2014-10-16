@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B40D8BAC199D43BB00C84FB5 /* NHAExhibitsRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40D8BAB199D43BB00C84FB5 /* NHAExhibitsRootViewController.m */; };
 		B40D8BB1199D4B8F00C84FB5 /* doodle_bug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B40D8BAD199D4B8F00C84FB5 /* doodle_bug.jpg */; };
 		B40D8BB2199D4B8F00C84FB5 /* home_built_aircraft.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B40D8BAE199D4B8F00C84FB5 /* home_built_aircraft.jpg */; };
 		B40D8BB3199D4B8F00C84FB5 /* terminal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B40D8BAF199D4B8F00C84FB5 /* terminal.jpg */; };
@@ -35,8 +34,6 @@
 		B48D2DF919995F2A0008EFE1 /* NHAHoursAndRatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D2DF819995F2A0008EFE1 /* NHAHoursAndRatesViewController.m */; };
 		B48D2DFC19995F410008EFE1 /* NHAMembershipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D2DFB19995F410008EFE1 /* NHAMembershipViewController.m */; };
 		B48D2DFF19995F4D0008EFE1 /* NHAAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D2DFE19995F4D0008EFE1 /* NHAAboutUsViewController.m */; };
-		B48D2E0219995F690008EFE1 /* NHAExhibitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D2E0119995F690008EFE1 /* NHAExhibitsViewController.m */; };
-		B49B9425199D2D5C00382ECC /* NHAExhibitsPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B49B9424199D2D5C00382ECC /* NHAExhibitsPageViewController.m */; };
 		B4C36176199BF99000F0A183 /* NHAUIGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C36175199BF99000F0A183 /* NHAUIGenerator.m */; };
 /* End PBXBuildFile section */
 
@@ -51,8 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B40D8BAA199D43BB00C84FB5 /* NHAExhibitsRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAExhibitsRootViewController.h; sourceTree = "<group>"; };
-		B40D8BAB199D43BB00C84FB5 /* NHAExhibitsRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAExhibitsRootViewController.m; sourceTree = "<group>"; };
 		B40D8BAD199D4B8F00C84FB5 /* doodle_bug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doodle_bug.jpg; sourceTree = "<group>"; };
 		B40D8BAE199D4B8F00C84FB5 /* home_built_aircraft.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_built_aircraft.jpg; sourceTree = "<group>"; };
 		B40D8BAF199D4B8F00C84FB5 /* terminal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = terminal.jpg; sourceTree = "<group>"; };
@@ -88,10 +83,6 @@
 		B48D2DFB19995F410008EFE1 /* NHAMembershipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAMembershipViewController.m; sourceTree = "<group>"; };
 		B48D2DFD19995F4D0008EFE1 /* NHAAboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAAboutUsViewController.h; sourceTree = "<group>"; };
 		B48D2DFE19995F4D0008EFE1 /* NHAAboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAAboutUsViewController.m; sourceTree = "<group>"; };
-		B48D2E0019995F690008EFE1 /* NHAExhibitsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAExhibitsViewController.h; sourceTree = "<group>"; };
-		B48D2E0119995F690008EFE1 /* NHAExhibitsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAExhibitsViewController.m; sourceTree = "<group>"; };
-		B49B9423199D2D5C00382ECC /* NHAExhibitsPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAExhibitsPageViewController.h; sourceTree = "<group>"; };
-		B49B9424199D2D5C00382ECC /* NHAExhibitsPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAExhibitsPageViewController.m; sourceTree = "<group>"; };
 		B4C36174199BF99000F0A183 /* NHAUIGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAUIGenerator.h; sourceTree = "<group>"; };
 		B4C36175199BF99000F0A183 /* NHAUIGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAUIGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,7 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				B49B9427199D2DA000382ECC /* AboutUs */,
-				B49B9426199D2D7900382ECC /* Exhibits */,
 				B49B9428199D2DB700382ECC /* HoursAndRates */,
 				B49B942A199D2DC800382ECC /* Membership */,
 				B49B942B199D2DCD00382ECC /* UI */,
@@ -222,19 +212,6 @@
 				B40D8BB0199D4B8F00C84FB5 /* voluteering.jpg */,
 			);
 			name = img;
-			sourceTree = "<group>";
-		};
-		B49B9426199D2D7900382ECC /* Exhibits */ = {
-			isa = PBXGroup;
-			children = (
-				B48D2E0019995F690008EFE1 /* NHAExhibitsViewController.h */,
-				B48D2E0119995F690008EFE1 /* NHAExhibitsViewController.m */,
-				B49B9423199D2D5C00382ECC /* NHAExhibitsPageViewController.h */,
-				B49B9424199D2D5C00382ECC /* NHAExhibitsPageViewController.m */,
-				B40D8BAA199D43BB00C84FB5 /* NHAExhibitsRootViewController.h */,
-				B40D8BAB199D43BB00C84FB5 /* NHAExhibitsRootViewController.m */,
-			);
-			name = Exhibits;
 			sourceTree = "<group>";
 		};
 		B49B9427199D2DA000382ECC /* AboutUs */ = {
@@ -321,7 +298,11 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "New Hampshire Aviation";
 				TargetAttributes = {
+					B4793AC5199243D0004C1584 = {
+						DevelopmentTeam = YXU7589MR8;
+					};
 					B4793AE6199243D0004C1584 = {
+						DevelopmentTeam = YXU7589MR8;
 						TestTargetID = B4793AC5199243D0004C1584;
 					};
 				};
@@ -381,12 +362,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B49B9425199D2D5C00382ECC /* NHAExhibitsPageViewController.m in Sources */,
 				B4793ADA199243D0004C1584 /* NHAAppDelegate.m in Sources */,
 				B48D2DFF19995F4D0008EFE1 /* NHAAboutUsViewController.m in Sources */,
 				B48D2DFC19995F410008EFE1 /* NHAMembershipViewController.m in Sources */,
-				B40D8BAC199D43BB00C84FB5 /* NHAExhibitsRootViewController.m in Sources */,
-				B48D2E0219995F690008EFE1 /* NHAExhibitsViewController.m in Sources */,
 				B4C36176199BF99000F0A183 /* NHAUIGenerator.m in Sources */,
 				B48D2DF919995F2A0008EFE1 /* NHAHoursAndRatesViewController.m in Sources */,
 				B4793B0019924667004C1584 /* NHAHomePageViewController.m in Sources */,
@@ -519,11 +497,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Aviation/Aviation-Prefix.pch";
 				INFOPLIST_FILE = "Aviation/Aviation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -534,11 +515,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Aviation/Aviation-Prefix.pch";
 				INFOPLIST_FILE = "Aviation/Aviation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -548,6 +532,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aviation.app/Aviation";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -561,6 +547,7 @@
 				);
 				INFOPLIST_FILE = "AviationTests/AviationTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -570,6 +557,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aviation.app/Aviation";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -579,6 +568,7 @@
 				GCC_PREFIX_HEADER = "Aviation/Aviation-Prefix.pch";
 				INFOPLIST_FILE = "AviationTests/AviationTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};

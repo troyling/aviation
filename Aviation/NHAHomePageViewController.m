@@ -37,7 +37,6 @@
                                    self.newsAndEventBtn,
                                    self.membershipBtn,
                                    self.galleryBtn,
-                                   self.exhibitsBtn,
                                    self.aboutUsBtn]];
     
     // Set background color

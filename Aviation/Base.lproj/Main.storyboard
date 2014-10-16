@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="61t-Nt-Mn4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A386b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="61t-Nt-Mn4">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--Home Page View Controller - Aviation Museum-->
+        <!--Aviation Museum-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="NHAHomePageViewController" sceneMemberID="viewController">
@@ -56,30 +57,6 @@
                                 </state>
                                 <connections>
                                     <action selector="openPhotos:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CnZ-99-tbW"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="84F-ri-kO8">
-                                <rect key="frame" x="55" y="283" width="210" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                <state key="normal" title="Exhibits">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="EUd-kq-Tsp" kind="push" id="Ebs-eO-Zvc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="x5L-rr-QgL">
-                                <rect key="frame" x="55" y="331" width="210" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                <state key="normal" title="About Us">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="UBn-M8-BNc" kind="push" id="hEB-Mw-DGc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yAt-E4-uZB">
@@ -147,13 +124,24 @@
                                     <action selector="openYoutube:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cA2-Kb-QcE"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="x5L-rr-QgL">
+                                <rect key="frame" x="55" y="283" width="210" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="About Us">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="UBn-M8-BNc" kind="push" id="hEB-Mw-DGc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Aviation Museum" id="dNR-Gs-f0X"/>
                     <connections>
                         <outlet property="aboutUsBtn" destination="x5L-rr-QgL" id="Kw4-xL-J3R"/>
-                        <outlet property="exhibitsBtn" destination="84F-ri-kO8" id="V2F-YW-Chk"/>
                         <outlet property="galleryBtn" destination="V8A-Zg-9CS" id="E7T-hp-ymS"/>
                         <outlet property="hourAndRateBtn" destination="Zma-6h-866" id="woR-9u-E9K"/>
                         <outlet property="membershipBtn" destination="KH6-tv-puf" id="cJQ-0R-6qP"/>
@@ -164,7 +152,7 @@
             </objects>
             <point key="canvasLocation" x="29" y="489"/>
         </scene>
-        <!--Membership View Controller - Membership-->
+        <!--Membership-->
         <scene sceneID="vWO-XX-ZsC">
             <objects>
                 <viewController id="Nno-bS-UoH" customClass="NHAMembershipViewController" sceneMemberID="viewController">
@@ -252,73 +240,7 @@
             </objects>
             <point key="canvasLocation" x="924" y="172"/>
         </scene>
-        <!--Exhibits Root View Controller - Exhibits-->
-        <scene sceneID="BtP-cQ-yoZ">
-            <objects>
-                <viewController storyboardIdentifier="NHAExhibitsRootViewController" id="EUd-kq-Tsp" customClass="NHAExhibitsRootViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="z0a-pf-KLe">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Exhibits" id="Apx-4M-DDH"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7HA-Ow-Mcm" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="924" y="825"/>
-        </scene>
-        <!--Exhibits Page View Controller - Exhibits-->
-        <scene sceneID="2Zb-Oj-t5m">
-            <objects>
-                <pageViewController storyboardIdentifier="NHAExhibitsPageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="acw-uq-wgJ" customClass="NHAExhibitsPageViewController" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" title="Exhibits" id="vjM-5U-PCm"/>
-                </pageViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rq5-dO-d5o" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1287" y="825"/>
-        </scene>
-        <!--Exhibits View Controller-->
-        <scene sceneID="g8L-91-9zo">
-            <objects>
-                <viewController storyboardIdentifier="NHAExhibitsViewController" id="TlJ-2L-gNy" customClass="NHAExhibitsViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6Lr-wP-T5k">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="xpu-xO-ANE">
-                                <rect key="frame" x="20" y="116" width="280" height="283"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Heading" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JL9-vM-ofL">
-                                <rect key="frame" x="20" y="65" width="280" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
-                                <color key="textColor" red="0.59999999999999998" green="0.0" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="q46-EB-Sl7">
-                                <rect key="frame" x="20" y="370" width="280" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The Aviation Museum of New Hampshire welcomes everyone with an interest in learning more about New Hampshire's exciting aviation history. The Aviation Museum is New Hampshire's only working museum devoted to aviation history in the Granite State.
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="description" destination="q46-EB-Sl7" id="fz7-ae-HEL"/>
-                        <outlet property="heading" destination="JL9-vM-ofL" id="Vv2-wL-RKC"/>
-                        <outlet property="imageView" destination="xpu-xO-ANE" id="HyH-yb-WeM"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a0G-Kk-4Ig" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1642" y="825"/>
-        </scene>
-        <!--About Us View Controller - About Us-->
+        <!--About Us-->
         <scene sceneID="vSv-dI-quu">
             <objects>
                 <viewController id="UBn-M8-BNc" customClass="NHAAboutUsViewController" sceneMemberID="viewController">
@@ -414,7 +336,7 @@
             </objects>
             <point key="canvasLocation" x="924" y="1487"/>
         </scene>
-        <!--Hours And Rates View Controller - Hours & Rates-->
+        <!--Hours & Rates-->
         <scene sceneID="ucA-mT-WXH">
             <objects>
                 <viewController id="LUq-g0-Bfc" customClass="NHAHoursAndRatesViewController" sceneMemberID="viewController">
@@ -628,10 +550,10 @@
         <image name="terminal.jpg" width="2048" height="1365"/>
         <image name="youtubeicon.png" width="512" height="512"/>
     </resources>
-    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>
